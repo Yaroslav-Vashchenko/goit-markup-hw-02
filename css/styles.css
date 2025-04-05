@@ -1,9 +1,17 @@
-body {font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
-color: #434455;}
+body {font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;}
 
 .nav-logo-link 
 {
-text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
 .nav-logo-link .logo-word-two
@@ -36,7 +44,7 @@ text-decoration: none;
     color: #404bbf;
 }
 
-.address .address-link
+.address-list .address-link
 {
     font-weight: 400;
     font-size: 16px;
@@ -44,15 +52,17 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    font-style: normal;
 }
 
-.address .address-link:hover
+.address-list .address-link:hover
 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
     color: #404bbf;
+}
+
+.address-list .address-link:focus
+{
+  color: #404bbf;
 }
 
 .section-one 
@@ -75,20 +85,24 @@ text-decoration: none;
 
 .main-button 
 {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;    
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
 .main-button:hover
 {
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
+}
+
+.main-button:focus
+{
+    background-color: #404BBF
 }
 
 .advantages-list .title
@@ -122,6 +136,12 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
+}
+
+.section-three .team-list
+{
+    background-color: #FFFFFF
 }
 
 .team-list .title 
@@ -152,6 +172,7 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list .title
@@ -177,7 +198,7 @@ background: #f4f4fd;
     background: #2e2f42;
 }
 
-.logo-word
+.footer-link
 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -190,7 +211,7 @@ background: #f4f4fd;
 
 .footer .logo-word-two
 {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
