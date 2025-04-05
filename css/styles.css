@@ -44,6 +44,11 @@ background-color: #FFFFFF;}
     color: #404bbf;
 }
 
+.address
+{
+
+}
+
 .address-list .address-link
 {
     font-weight: 400;
@@ -68,8 +73,7 @@ background-color: #FFFFFF;}
 .section-one 
 {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
+
 }
 
 .section-one .title
@@ -139,7 +143,7 @@ background: #f4f4fd;
     text-transform: capitalize
 }
 
-.section-three .team-list
+.section-three .team-list .team-img
 {
     background-color: #FFFFFF
 }
