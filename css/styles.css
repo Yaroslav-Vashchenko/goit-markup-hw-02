@@ -35,6 +35,11 @@ background-color: #FFFFFF;}
     text-decoration: none;
 }
 
+.nav-list .nav-link:focus
+{
+color: #404bbf
+}
+
 .nav-list .nav-link:hover
 {
     font-weight: 500;
@@ -46,7 +51,7 @@ background-color: #FFFFFF;}
 
 .address
 {
-
+ font-style: normal
 }
 
 .address-list .address-link
@@ -57,7 +62,6 @@ background-color: #FFFFFF;}
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
 }
 
 .address-list .address-link:hover
